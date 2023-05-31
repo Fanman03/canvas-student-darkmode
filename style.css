@@ -105,6 +105,10 @@ table.summary, table.summary td, table.summary tbody th {
     color: black !important;
 }
 
-select option {
-    background-color: var(--secondary-bg) !important;
+.eqmZq_bGBk {
+    background-color: var(--primary-bg) !important;    
+}
+
+.eqmZq_bGBk:hover {
+    background-color: var(--secondary-bg) !important;    
 }
