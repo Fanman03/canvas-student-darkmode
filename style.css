@@ -1,0 +1,110 @@
+:root {
+    --primary-bg: #0b0b0b;
+    --secondary-bg: #232326;
+    --primary-text: white;
+    --secondary-text: #ffffffa6;
+    --border: #ffffff70;
+    --link: #ff1040;
+    --btn: #ba0c2f;
+    --btn-hover: #950a26;
+}
+
+.ic-Layout-columns, #dashboard_header_container, .ic-Dashboard-header__layout, .header-bar, .ic-Layout-wrapper, #breadcrumbs, .toolbarView, .toolbarView .headerBar, .item-group-container, .item-group-condensed .ig-header, .ig-list .ig-row, .fOyUs_dUgE, .fOyUs_bvKN, .assignment-student-header, .module-sequence-footer .module-sequence-footer-content, #assignments-student-footer, .fOyUs_fKlg  {
+    background: var(--primary-bg) !important;
+}
+
+h1, h2, h3, h4, h5, p, .blnAQ_drOs, body, .ic-DashboardCard__header-subtitle, #breadcrumbs, #breadcrumbs>ul>li+li:last-of-type a, .ic-DashboardCard, .ic-DashboardCard__header_content, .ic-app-course-menu, .ig-header .name, li, .ig-list .ig-row a.ig-title, .ig-info, .fOyUs_dUgE, .fOyUs_bvKN, .fCrpb_egrg, .fCrpb_egrg.fCrpb_fVUh, label.fCrpb_egrg, .accessible-toggler, .enRcg_bGBk, .textLayer, .quiz_score .score_value   {
+    color: var(--primary-text) !important;
+}
+
+.ic-DashboardCard__header-title span, .ig-details, #grades_summary th.title .context, .standalone-icon:before, .ic-app-footer__links a, .context_module_item .type_icon i  {
+    color: var(--secondary-text) !important;
+}
+
+.ic-Dashboard-header__layout, .header-bar, .ic-app-nav-toggle-and-crumbs, .assignment-student-header {
+    border-bottom: 1px solid var(--border) !important;
+}
+
+#right-side h2, #right-side .h2 {
+    border-bottom: 1px solid var(--border);
+}
+
+.item-group-condensed .ig-header, .ig-list .ig-row, .quiz-submission, .question_editing {
+    border: 1px solid var(--border);
+}
+
+hr, .ic-app-footer, .module-sequence-footer .module-sequence-footer-content {
+    border-top: 1px solid var(--border) !important;
+}
+
+.btn, .Button, .fQfxa_dqAF.fQfxa_buuG {
+    background: var(--btn) !important;
+    border: 1px solid var(--btn) !important;
+    color: var(--primary-text) !important;
+}
+
+.btn:hover, .Button:hover {
+    background: var(--btn-hover) !important;
+    border: 1px solid var(--btn-hover) !important;
+    color: var(--primary-text) !important;
+}
+
+.btn-link, .Button--link {
+    border-color: transparent !important;
+}
+
+.Button--icon-action, .Button--icon-action-rev, .Button--link {
+    transition: color .2s;
+    background: transparent !important;
+    border: none !important;
+    padding: 2px 4px;
+    border-radius: 3px;
+    color: var(--primary-text);
+    outline: none;
+}
+
+.ic-DashboardCard, .ic-DashboardCard__header_content, .fLzZc_bGBk, .fLzZc_fSpQ, .fLzZc_doqw, .fLzZc_bQpq, .eJkkQ_bIuM {
+    background: var(--secondary-bg) !important;
+}
+
+.ic-app-course-menu {
+    border-right: 1px solid var(--border) !important;
+}
+
+.list-view a.active {
+    border-left: 2px solid var(--primary-text) !important;
+    border-radius: 0px;
+    font-weight: bold;
+    color: var(--primary-text) !important;
+    padding-left: 4px;
+}
+
+a {
+    color: var(--link);
+}
+
+.ic-Table.ic-Table--hover-row tbody tr:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-neutral:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-success:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-alert:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-danger:hover, .quiz-submission, .question_editing {
+    background: var(--secondary-bg) !important;
+}
+
+table.summary, table.summary td, table.summary tbody th {
+    background: var(--secondary-bg) !important;
+}
+
+#grades_summary .feedback_visibility_ff a.toggle_comments_link, #grades_summary .feedback_visibility_ff a.toggle_rubric_assessments_link {
+    background: var(--secondary-bg) !important;
+    color: var(--primary-text) !important;
+}
+
+.pill {
+    border: 1px solid var(--border) !important;
+    box-shadow: 0 0 0 !important;
+}
+
+.flash-message-container {
+    color: black !important;
+}
+
+select option {
+    background-color: var(--secondary-bg) !important;
+}
