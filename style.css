@@ -9,19 +9,19 @@
     --btn-hover: #950a26;
 }
 
-.ic-Layout-columns, #dashboard_header_container, .ic-Dashboard-header__layout, .header-bar, .ic-Layout-wrapper, #breadcrumbs, .toolbarView, .toolbarView .headerBar, .item-group-container, .item-group-condensed .ig-header, .ig-list .ig-row, .fOyUs_dUgE, .fOyUs_bvKN, .assignment-student-header, .module-sequence-footer .module-sequence-footer-content, #assignments-student-footer, .fOyUs_fKlg, .agenda-wrapper, #calendar-list-holder, #other-calendars-list-holder, #undated-events, .ui-widget-content, .ui-dialog-titlebar, .fc-body, .conversations .panel, .messages, .messages>li {
+.ic-Layout-columns, #dashboard_header_container, .ic-Dashboard-header__layout, .header-bar, .ic-Layout-wrapper, #breadcrumbs, .toolbarView, .toolbarView .headerBar, .item-group-container, .item-group-condensed .ig-header, .ig-list .ig-row, .fOyUs_dUgE, .fOyUs_bvKN, .assignment-student-header, .module-sequence-footer .module-sequence-footer-content, #assignments-student-footer, .fOyUs_fKlg, .agenda-wrapper, #calendar-list-holder, #other-calendars-list-holder, #undated-events, .ui-widget-content, .ui-dialog-titlebar, .fc-body, .conversations .panel, .messages, .messages>li, .EmptyDays-styles__root, .Day-styles__root, .PlannerHeader-styles__root {
     background: var(--primary-bg) !important;
 }
 
-h1, h2, h3, h4, h5, p, .blnAQ_drOs, body, .ic-DashboardCard__header-subtitle, #breadcrumbs, #breadcrumbs>ul>li+li:last-of-type a, .ic-DashboardCard, .ic-DashboardCard__header_content, .ic-app-course-menu, .ig-header .name, li, .ig-list .ig-row a.ig-title, .ig-info, .fOyUs_dUgE, .fOyUs_bvKN, .fCrpb_egrg, .fCrpb_egrg.fCrpb_fVUh, label.fCrpb_egrg, .accessible-toggler, .enRcg_bGBk, .textLayer, .quiz_score .score_value, .fc-day-number, .event-details-timestring, .ui-dialog-title {
+h1, h2, h3, h4, h5, p, .blnAQ_drOs, body, .ic-DashboardCard__header-subtitle, #breadcrumbs, #breadcrumbs>ul>li+li:last-of-type a, .ic-DashboardCard, .ic-DashboardCard__header_content, .ic-app-course-menu, .ig-header .name, li, .ig-list .ig-row a.ig-title, .ig-info, .fOyUs_dUgE, .fOyUs_bvKN, .fCrpb_egrg, .fCrpb_egrg.fCrpb_fVUh, label.fCrpb_egrg, .accessible-toggler, .enRcg_bGBk, .textLayer, .quiz_score .score_value, .fc-day-number, .event-details-timestring, .ui-dialog-title, .eMdva_caGd, .fQfxa_bCUx.fQfxa_buuG {
     color: var(--primary-text) !important;
 }
 
-.ic-DashboardCard__header-title span, .ig-details, #grades_summary th.title .context, .standalone-icon:before, .ic-app-footer__links a, .context_module_item .type_icon i, .fc-other-month, .message-list .summary, .message-detail.span8 .date, .message-detail.conversations__message-detail .date, .icon-email, .no-messages  {
+.ic-DashboardCard__header-title span, .ig-details, #grades_summary th.title .context, .standalone-icon:before, .ic-app-footer__links a, .context_module_item .type_icon i, .fc-other-month, .message-list .summary, .message-detail.span8 .date, .message-detail.conversations__message-detail .date, .icon-email, .no-messages, .fOyUs_ImeN  {
     color: var(--secondary-text) !important;
 }
 
-.ic-Dashboard-header__layout, .header-bar, .ic-app-nav-toggle-and-crumbs, .assignment-student-header, .message-list .messages>li, .conversations .panel  {
+.ic-Dashboard-header__layout, .header-bar, .ic-app-nav-toggle-and-crumbs, .assignment-student-header, .message-list .messages>li, .conversations .panel, .blnAQ_kWwi, .PlannerItem-styles__root, .recent-activity-header  {
     border-bottom: 1px solid var(--border) !important;
 }
 
@@ -41,13 +41,13 @@ hr, .ic-app-footer, .module-sequence-footer .module-sequence-footer-content {
     border-top: 1px solid var(--border) !important;
 }
 
-.btn, .Button, .fQfxa_dqAF.fQfxa_buuG {
+.btn, .Button, .fQfxa_dqAF.fQfxa_buuG, #planner-today-btn, .fQfxa_dqAF.fQfxa_bFtJ {
     background: var(--btn) !important;
     border: 1px solid var(--btn) !important;
     color: var(--primary-text) !important;
 }
 
-.btn:hover, .Button:hover {
+.btn:hover, .Button:hover, #planner-today-btn:hover, .fQfxa_dqAF.fQfxa_bFtJ:hover {
     background: var(--btn-hover) !important;
     border: 1px solid var(--btn-hover) !important;
     color: var(--primary-text) !important;
@@ -67,7 +67,7 @@ hr, .ic-app-footer, .module-sequence-footer .module-sequence-footer-content {
     outline: none;
 }
 
-.ic-DashboardCard, .ic-DashboardCard__header_content, .fLzZc_bGBk, .fLzZc_fSpQ, .fLzZc_doqw, .fLzZc_bQpq, .eJkkQ_bIuM, #minical, .event-details, #calendars-context-list .context_list_context:hover, #other-calendars-context-list .context_list_context:hover, .ColorPicker__Container, .ac-result-container, .message-list .messages>li.active {
+.ic-DashboardCard, .ic-DashboardCard__header_content, .fLzZc_bGBk, .fLzZc_fSpQ, .fLzZc_doqw, .fLzZc_bQpq, .eJkkQ_bIuM, #minical, .event-details, #calendars-context-list .context_list_context:hover, #other-calendars-context-list .context_list_context:hover, .ColorPicker__Container, .ac-result-container, .message-list .messages>li.active, .Grouping-styles__title, .Grouping-styles__title::after, .ic-notification__content {
     background: var(--secondary-bg) !important;
 }
 
@@ -83,11 +83,11 @@ hr, .ic-app-footer, .module-sequence-footer .module-sequence-footer-content {
     padding-left: 4px;
 }
 
-a, .message-list .date {
+a, .message-list .date, a.fbyHH_bGBk, button.fbyHH_bGBk {
     color: var(--link);
 }
 
-.ic-Table.ic-Table--hover-row tbody tr:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-neutral:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-success:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-alert:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-danger:hover, .quiz-submission, .question_editing {
+.ic-Table.ic-Table--hover-row tbody tr:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-neutral:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-success:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-alert:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-danger:hover, .quiz-submission, .question_editing, .eMdva_bgqc {
     background: var(--secondary-bg) !important;
 }
 
