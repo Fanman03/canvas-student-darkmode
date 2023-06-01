@@ -9,7 +9,7 @@
     --btn-hover: #950a26;
 }
 
-.ic-Layout-columns, #dashboard_header_container, .ic-Dashboard-header__layout, .header-bar, .ic-Layout-wrapper, #breadcrumbs, .toolbarView, .toolbarView .headerBar, .item-group-container, .item-group-condensed .ig-header, .ig-list .ig-row, .fOyUs_dUgE, .fOyUs_bvKN, .assignment-student-header, .module-sequence-footer .module-sequence-footer-content, #assignments-student-footer, .fOyUs_fKlg, .agenda-wrapper, #calendar-list-holder, #other-calendars-list-holder, #undated-events, .ui-widget-content, .ui-dialog-titlebar  {
+.ic-Layout-columns, #dashboard_header_container, .ic-Dashboard-header__layout, .header-bar, .ic-Layout-wrapper, #breadcrumbs, .toolbarView, .toolbarView .headerBar, .item-group-container, .item-group-condensed .ig-header, .ig-list .ig-row, .fOyUs_dUgE, .fOyUs_bvKN, .assignment-student-header, .module-sequence-footer .module-sequence-footer-content, #assignments-student-footer, .fOyUs_fKlg, .agenda-wrapper, #calendar-list-holder, #other-calendars-list-holder, #undated-events, .ui-widget-content, .ui-dialog-titlebar, .fc-body  {
     background: var(--primary-bg) !important;
 }
 
