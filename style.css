@@ -2,26 +2,27 @@
     --primary-bg: #0b0b0b;
     --secondary-bg: #232326;
     --primary-text: white;
-    --secondary-text: #ffffffa6;
-    --border: #ffffff70;
+    --secondary-text: #c8c8c8;
+    --border: #707070;
     --link: #ff1040;
     --btn: #ba0c2f;
     --btn-hover: #950a26;
+    --info-bg: #0374b5;
 }
 
 .ic-Layout-columns, #dashboard_header_container, .ic-Dashboard-header__layout, .header-bar, .ic-Layout-wrapper, #breadcrumbs, .toolbarView, .toolbarView .headerBar, .item-group-container, .item-group-condensed .ig-header, .ig-list .ig-row, .fOyUs_dUgE, .fOyUs_bvKN, .assignment-student-header, .module-sequence-footer .module-sequence-footer-content, #assignments-student-footer, .fOyUs_fKlg, .agenda-wrapper, #calendar-list-holder, #other-calendars-list-holder, #undated-events, .ui-widget-content, .ui-dialog-titlebar, .fc-body, .conversations .panel, .messages, .messages>li, .EmptyDays-styles__root, .Day-styles__root, .PlannerHeader-styles__root {
     background: var(--primary-bg) !important;
 }
 
-h1, h2, h3, h4, h5, p, .blnAQ_drOs, body, .ic-DashboardCard__header-subtitle, #breadcrumbs, #breadcrumbs>ul>li+li:last-of-type a, .ic-DashboardCard, .ic-DashboardCard__header_content, .ic-app-course-menu, .ig-header .name, li, .ig-list .ig-row a.ig-title, .ig-info, .fOyUs_dUgE, .fOyUs_bvKN, .fCrpb_egrg, .fCrpb_egrg.fCrpb_fVUh, label.fCrpb_egrg, .accessible-toggler, .enRcg_bGBk, .textLayer, .quiz_score .score_value, .fc-day-number, .event-details-timestring, .ui-dialog-title, .eMdva_caGd, .fQfxa_bCUx.fQfxa_buuG {
+h1, h2, h3, h4, h5, p, .blnAQ_drOs, body, .ic-DashboardCard__header-subtitle, #breadcrumbs, #breadcrumbs>ul>li+li:last-of-type a, .ic-DashboardCard, .ic-DashboardCard__header_content, .ic-app-course-menu, .ig-header .name, li, .ig-list .ig-row a.ig-title, .ig-info, .fOyUs_dUgE, .fOyUs_bvKN, .fCrpb_egrg, .fCrpb_egrg.fCrpb_fVUh, label.fCrpb_egrg, .accessible-toggler, .enRcg_bGBk, .textLayer, .quiz_score .score_value, .fc-day-number, .event-details-timestring, .ui-dialog-title, .eMdva_caGd, .fQfxa_bCUx.fQfxa_buuG, .Vmatu_blJt, .ig-empty-msg, .standalone-icon:before {
     color: var(--primary-text) !important;
 }
 
-.ic-DashboardCard__header-title span, .ig-details, #grades_summary th.title .context, .standalone-icon:before, .ic-app-footer__links a, .context_module_item .type_icon i, .fc-other-month, .message-list .summary, .message-detail.span8 .date, .message-detail.conversations__message-detail .date, .icon-email, .no-messages, .fOyUs_ImeN  {
+.ic-DashboardCard__header-title span, .ig-details, #grades_summary th.title .context, .ic-app-footer__links a, .context_module_item .type_icon i, .fc-other-month, .message-list .summary, .message-detail.span8 .date, .message-detail.conversations__message-detail .date, .icon-email, .no-messages, .fOyUs_ImeN  {
     color: var(--secondary-text) !important;
 }
 
-.ic-Dashboard-header__layout, .header-bar, .ic-app-nav-toggle-and-crumbs, .assignment-student-header, .message-list .messages>li, .conversations .panel, .blnAQ_kWwi, .PlannerItem-styles__root, .recent-activity-header  {
+.ic-Dashboard-header__layout, .header-bar, .ic-app-nav-toggle-and-crumbs, .assignment-student-header, .message-list .messages>li, .conversations .panel, .blnAQ_kWwi, .PlannerItem-styles__root, .recent-activity-header, .item-group-condensed .ig-list li:last-child .ig-row.ig-row-empty, .item-group-condensed .ig-list li:last-of-type .ig-row.ig-row-empty, .item-group-condensed .last_visible .ig-row.ig-row-empty  {
     border-bottom: 1px solid var(--border) !important;
 }
 
@@ -41,7 +42,7 @@ hr, .ic-app-footer, .module-sequence-footer .module-sequence-footer-content {
     border-top: 1px solid var(--border) !important;
 }
 
-.btn, .Button, .fQfxa_dqAF.fQfxa_buuG, #planner-today-btn, .fQfxa_dqAF.fQfxa_bFtJ {
+.btn, .Button, .fQfxa_dqAF.fQfxa_buuG, #planner-today-btn, .fQfxa_dqAF.fQfxa_bFtJ, .Vmatu_cjSw.Vmatu_ksNK .Vmatu_cSXm {
     background: var(--btn) !important;
     border: 1px solid var(--btn) !important;
     color: var(--primary-text) !important;
@@ -96,8 +97,9 @@ table.summary, table.summary td, table.summary tbody th {
 }
 
 #grades_summary .feedback_visibility_ff a.toggle_comments_link, #grades_summary .feedback_visibility_ff a.toggle_rubric_assessments_link {
-    background: var(--secondary-bg) !important;
+    background: var(--btn) !important;
     color: var(--primary-text) !important;
+    border: 1px solid var(--btn) !important;
 }
 
 .pill {
@@ -117,11 +119,29 @@ table.summary, table.summary td, table.summary tbody th {
     background-color: var(--secondary-bg) !important;    
 }
 
-.fc-today, .message-list .message-count {
+.fc-today, .message-list .message-count, .eqmZq_dDxn {
     background-color: var(--btn) !important;   
 }
 
 .message-list .list-header {
     background-color: var(--primary-bg) !important;    
     color: var(--primary-text) !important;
+}
+
+.dLyYq_pypk, .dLyYq_ecos {
+    background: var(--info-bg) !important;
+    color: var(--primary-text) !important;
+}
+
+.myScore{
+    stroke: var(--info-bg) !important;
+    fill: var(--info-bg) !important;
+}
+
+.zero, .possible, .min, .bottomQ, .mid50, .median, .topQ, .max {
+    stroke: var(--secondary-text) !important;
+}
+
+.ic-Table td, #grades_summary th.title, .ic-Table th {
+    border-bottom-color: var(--border) !important;
 }
