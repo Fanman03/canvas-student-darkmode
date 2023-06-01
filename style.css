@@ -9,7 +9,7 @@
     --btn-hover: #950a26;
 }
 
-.ic-Layout-columns, #dashboard_header_container, .ic-Dashboard-header__layout, .header-bar, .ic-Layout-wrapper, #breadcrumbs, .toolbarView, .toolbarView .headerBar, .item-group-container, .item-group-condensed .ig-header, .ig-list .ig-row, .fOyUs_dUgE, .fOyUs_bvKN, .assignment-student-header, .module-sequence-footer .module-sequence-footer-content, #assignments-student-footer, .fOyUs_fKlg, .agenda-wrapper, #calendar-list-holder, #other-calendars-list-holder, #undated-events, .ui-widget-content, .ui-dialog-titlebar, .fc-body  {
+.ic-Layout-columns, #dashboard_header_container, .ic-Dashboard-header__layout, .header-bar, .ic-Layout-wrapper, #breadcrumbs, .toolbarView, .toolbarView .headerBar, .item-group-container, .item-group-condensed .ig-header, .ig-list .ig-row, .fOyUs_dUgE, .fOyUs_bvKN, .assignment-student-header, .module-sequence-footer .module-sequence-footer-content, #assignments-student-footer, .fOyUs_fKlg, .agenda-wrapper, #calendar-list-holder, #other-calendars-list-holder, #undated-events, .ui-widget-content, .ui-dialog-titlebar, .fc-body, .conversations .panel, .messages, .messages>li {
     background: var(--primary-bg) !important;
 }
 
@@ -17,16 +17,20 @@ h1, h2, h3, h4, h5, p, .blnAQ_drOs, body, .ic-DashboardCard__header-subtitle, #b
     color: var(--primary-text) !important;
 }
 
-.ic-DashboardCard__header-title span, .ig-details, #grades_summary th.title .context, .standalone-icon:before, .ic-app-footer__links a, .context_module_item .type_icon i, .fc-other-month  {
+.ic-DashboardCard__header-title span, .ig-details, #grades_summary th.title .context, .standalone-icon:before, .ic-app-footer__links a, .context_module_item .type_icon i, .fc-other-month, .message-list .summary, .message-detail.span8 .date, .message-detail.conversations__message-detail .date, .icon-email, .no-messages  {
     color: var(--secondary-text) !important;
 }
 
-.ic-Dashboard-header__layout, .header-bar, .ic-app-nav-toggle-and-crumbs, .assignment-student-header {
+.ic-Dashboard-header__layout, .header-bar, .ic-app-nav-toggle-and-crumbs, .assignment-student-header, .message-list .messages>li, .conversations .panel  {
     border-bottom: 1px solid var(--border) !important;
 }
 
-#right-side h2, #right-side .h2 {
+#right-side h2, #right-side .h2{
     border-bottom: 1px solid var(--border);
+}
+
+.message-list-scroller {
+    border-right: 1px solid var(--border) !important;
 }
 
 .item-group-condensed .ig-header, .ig-list .ig-row, .quiz-submission, .question_editing {
@@ -63,7 +67,7 @@ hr, .ic-app-footer, .module-sequence-footer .module-sequence-footer-content {
     outline: none;
 }
 
-.ic-DashboardCard, .ic-DashboardCard__header_content, .fLzZc_bGBk, .fLzZc_fSpQ, .fLzZc_doqw, .fLzZc_bQpq, .eJkkQ_bIuM, #minical, .event-details, #calendars-context-list .context_list_context:hover, #other-calendars-context-list .context_list_context:hover, .ColorPicker__Container {
+.ic-DashboardCard, .ic-DashboardCard__header_content, .fLzZc_bGBk, .fLzZc_fSpQ, .fLzZc_doqw, .fLzZc_bQpq, .eJkkQ_bIuM, #minical, .event-details, #calendars-context-list .context_list_context:hover, #other-calendars-context-list .context_list_context:hover, .ColorPicker__Container, .ac-result-container, .message-list .messages>li.active {
     background: var(--secondary-bg) !important;
 }
 
@@ -79,7 +83,7 @@ hr, .ic-app-footer, .module-sequence-footer .module-sequence-footer-content {
     padding-left: 4px;
 }
 
-a {
+a, .message-list .date {
     color: var(--link);
 }
 
@@ -113,6 +117,11 @@ table.summary, table.summary td, table.summary tbody th {
     background-color: var(--secondary-bg) !important;    
 }
 
-.fc-today {
+.fc-today, .message-list .message-count {
     background-color: var(--btn) !important;   
+}
+
+.message-list .list-header {
+    background-color: var(--primary-bg) !important;    
+    color: var(--primary-text) !important;
 }
