@@ -14,7 +14,7 @@
     background: var(--primary-bg) !important;
 }
 
-h1, h2, h3, h4, h5, p, .blnAQ_drOs, body, .ic-DashboardCard__header-subtitle, #breadcrumbs, #breadcrumbs>ul>li+li:last-of-type a, .ic-DashboardCard, .ic-DashboardCard__header_content, .ic-app-course-menu, .ig-header .name, li, .ig-list .ig-row a.ig-title, .ig-info, .fOyUs_dUgE, .fOyUs_bvKN, .fCrpb_egrg, .fCrpb_egrg.fCrpb_fVUh, label.fCrpb_egrg, .accessible-toggler, .enRcg_bGBk, .textLayer, .quiz_score .score_value, .fc-day-number, .event-details-timestring, .ui-dialog-title, .eMdva_caGd, .fQfxa_bCUx.fQfxa_buuG, .Vmatu_blJt, .ig-empty-msg, .standalone-icon:before {
+h1, h2, h3, h4, h5, p, .blnAQ_drOs, body, .ic-DashboardCard__header-subtitle, #breadcrumbs, #breadcrumbs>ul>li+li:last-of-type a, .ic-DashboardCard, .ic-DashboardCard__header_content, .ic-app-course-menu, .ig-header .name, li, .ig-list .ig-row a.ig-title, .ig-info, .fOyUs_dUgE, .fOyUs_bvKN, .fCrpb_egrg, .fCrpb_egrg.fCrpb_fVUh, label.fCrpb_egrg, .accessible-toggler, .enRcg_bGBk, .textLayer, .quiz_score .score_value, .fc-day-number, .event-details-timestring, .ui-dialog-title, .eMdva_caGd, .fQfxa_bCUx.fQfxa_buuG, .Vmatu_blJt, .ig-empty-msg, .standalone-icon:before, label {
     color: var(--primary-text) !important;
 }
 
@@ -144,4 +144,16 @@ table.summary, table.summary td, table.summary tbody th {
 
 .ic-Table td, #grades_summary th.title, .ic-Table th {
     border-bottom-color: var(--border) !important;
+}
+
+.ui-dialog-titlebar-close {
+    background: var(--btn) !important;
+    border: 1px solid var(--btn) !important;
+    box-shadow: 0 0 0 0 #0000 !important;
+}
+
+.ui-dialog-titlebar-close:hover {
+    background: var(--btn-hover)  !important;
+    border: 1px solid var(--btn-hover) !important;
+    border: 1px solid #0000;
 }
