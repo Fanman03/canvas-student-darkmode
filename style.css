@@ -168,7 +168,7 @@ a.fbyHH_bGBk.fbyHH_vIby {
 }
 
 a.fbyHH_bGBk.fbyHH_vIby:hover {
-    text-decoration: var(--fbyHH-textDecorationWithinText);
+    text-decoration: var(--fbyHH-textDecorationWithinText) !important;
 }
 
 .fOyUs_fZwI, .fOyUs_kXoP, .dpCPB_caGd, .cAqHo_eAjd {
