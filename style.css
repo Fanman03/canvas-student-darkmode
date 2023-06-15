@@ -164,7 +164,7 @@ table.summary, table.summary td, table.summary tbody th {
 }
 
 a.fbyHH_bGBk.fbyHH_vIby {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 a.fbyHH_bGBk.fbyHH_vIby:hover {
