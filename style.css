@@ -1,4 +1,4 @@
-/* DU Canvas Darkmode CSS v.2023.06.11 */
+/* DU Canvas Darkmode CSS v.2023.06.14 */
 :root {
     --primary-bg: #0b0b0b;
     --secondary-bg: #232326;
@@ -15,11 +15,11 @@
     background: var(--primary-bg) !important;
 }
 
-h1, h2, h3, h4, h5, p, .blnAQ_drOs, body, .ic-DashboardCard__header-subtitle, #breadcrumbs, #breadcrumbs>ul>li+li:last-of-type a, .ic-DashboardCard, .ic-DashboardCard__header_content, .ic-app-course-menu, .ig-header .name, li, .ig-list .ig-row a.ig-title, .ig-info, .fOyUs_dUgE, .fOyUs_bvKN, .fCrpb_egrg, .fCrpb_egrg.fCrpb_fVUh, label.fCrpb_egrg, .accessible-toggler, .enRcg_bGBk, .textLayer, .quiz_score .score_value, .fc-day-number, .event-details-timestring, .ui-dialog-title, .eMdva_caGd, .fQfxa_bCUx.fQfxa_buuG, .Vmatu_blJt, .ig-empty-msg, .standalone-icon:before, label {
+h1, h2, h3, h4, h5, p, .blnAQ_drOs, body, .ic-DashboardCard__header-subtitle, #breadcrumbs, #breadcrumbs>ul>li+li:last-of-type a, .ic-DashboardCard, .ic-DashboardCard__header_content, .ic-app-course-menu, .ig-header .name, li, .ig-list .ig-row a.ig-title, .ig-info, .fOyUs_dUgE, .fOyUs_bvKN, .fCrpb_egrg, .fCrpb_egrg.fCrpb_fVUh, label.fCrpb_egrg, .accessible-toggler, .enRcg_bGBk, .textLayer, .quiz_score .score_value, .fc-day-number, .event-details-timestring, .ui-dialog-title, .eMdva_caGd, .fQfxa_bCUx.fQfxa_buuG, .Vmatu_blJt, .ig-empty-msg, .standalone-icon:before, label, .XOwIb_eLeB, .edit_calendar_event_option, .ui-tabs-anchor {
     color: var(--primary-text) !important;
 }
 
-.ic-DashboardCard__header-title span, .ig-details, #grades_summary th.title .context, .ic-app-footer__links a, .context_module_item .type_icon i, .fc-other-month, .message-list .summary, .message-detail.span8 .date, .message-detail.conversations__message-detail .date, .icon-email, .no-messages, .fOyUs_ImeN  {
+.ic-DashboardCard__header-title span, .ig-details, #grades_summary th.title .context, .ic-app-footer__links a, .context_module_item .type_icon i, .fc-other-month, .message-list .summary, .message-detail.span8 .date, .message-detail.conversations__message-detail .date, .icon-email, .no-messages, .fOyUs_ImeN, .ic-DashboardCard__action  {
     color: var(--secondary-text) !important;
 }
 
@@ -157,4 +157,63 @@ table.summary, table.summary td, table.summary tbody th {
     background: var(--btn-hover)  !important;
     border: 1px solid var(--btn-hover) !important;
     border: 1px solid #0000;
+}
+
+.fdyuz_bGBk.fdyuz_cMOR, .eHzxc_bGBk.eHzxc_bcOZ.eHzxc_ssMr {
+    background: var(--primary-bg);
+}
+
+a.fbyHH_bGBk.fbyHH_vIby {
+    text-decoration: none;
+}
+
+a.fbyHH_bGBk.fbyHH_vIby:hover {
+    text-decoration: var(--fbyHH-textDecorationWithinText);
+}
+
+.fOyUs_fZwI, .fOyUs_kXoP, .dpCPB_caGd, .cAqHo_eAjd {
+    background: var(--secondary-bg);
+}
+
+.XOwIb_eLeB:not([aria-selected]):not([aria-disabled]):hover, .XOwIb_eLeB[aria-selected] {
+    background: var(--btn);
+    color: var(--primary-text);
+    border: 1px solid var(--btn);
+}
+
+[dir="ltr"] .fOyUs_EMjX {
+    border: 1px solid var(--secondary-bg);
+}
+
+.fQfxa_bGBk:hover {
+    background: var(--btn);
+}
+
+.Button--icon-action-rev:hover {
+    background: #0000 !important;
+    border: 1px solid #0000 !important;
+    color: var(--secondary-text) !important;
+}
+
+.ic-DashboardCard__link:hover {
+    color: var(--secondary-text) !important;
+}
+
+ .ic-DashboardCard__action:hover {
+    color: var(--primary-text) !important;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active, .ui-tabs .ui-tabs-nav li.ui-tabs-active.ui-state-hover, .ui-tabs .ui-tabs-nav li.ui-tabs-active:hover, .ui-tabs .ui-tabs-nav li.ui-state-hover, .ui-tabs .ui-tabs-nav li:hover, .ui-tabs .ui-tabs-nav li.ui-state-focus, .ui-tabs .ui-tabs-nav li.ui-state-focus.ui-tabs-active, .ui-tabs .ui-tabs-nav li.ui-state-focus a, .ui-tabs .ui-tabs-nav li.ui-state-focus.ui-tabs-active a {
+    background: var(--btn);
+    color: var(--primary-text);
+    border: 1px solid var(--btn);
+    text-decoration: none !important;
+}
+
+.ui-tabs .ui-tabs-panel, .ui-dialog .ui-dialog-titlebar.ui-widget-header {
+    border: none;
+}
+
+.ui-tabs .ui-tabs-nav {
+    border-bottom-color: var(--border) !important;
 }
