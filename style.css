@@ -1,4 +1,4 @@
-/* DU Canvas Darkmode CSS v.2023.06.14 */
+/* DU Canvas Darkmode CSS v.2023.06.18 */
 :root {
     --primary-bg: #0b0b0b;
     --secondary-bg: #232326;
@@ -216,4 +216,8 @@ a.fbyHH_bGBk.fbyHH_vIby:hover {
 
 .ui-tabs .ui-tabs-nav {
     border-bottom-color: var(--border) !important;
+}
+
+#___reactour .reactour__helper {
+    background-color: var(--secondary-bg)
 }
