@@ -1,4 +1,4 @@
-/* DU Canvas Darkmode CSS v.2023.06.18 */
+/* DU Canvas Darkmode CSS v.2023.08.16 */
 :root {
     --primary-bg: #0b0b0b;
     --secondary-bg: #232326;
@@ -221,3 +221,30 @@ a.fbyHH_bGBk.fbyHH_vIby:hover {
 #___reactour .reactour__helper {
     background-color: var(--secondary-bg)
 }
+
+    .roster-tab {
+        background: var(--primary-bg) !important;
+    }
+    
+    .ic-Table td, #grades_summary th.title, .ic-Table th {
+        color: var(--secondary-text);
+    }
+    .ic-Table.ic-Table--striped tbody tr:nth-child(odd) {
+        background: var(--primary-bg) !important;
+    }
+    
+    .ic-Table.ic-Table--striped tbody tr:nth-child(odd):hover {
+        background: var(--secondary-bg) !important;
+    }
+    .ic-Table--striped tr:nth-child(odd) .roster_user_name {
+        color: var(--link);
+    }
+    
+    .pinned-discussions-v2__wrapper, .unpinned-discussions-v2__wrapper, .closed-for-comments-discussions-v2__wrapper {
+        background: var(--primary-bg) !important;
+        border: 1px solid var(--border);
+    }
+    
+    .discussions-v2__container-image {
+        background: var(--secondary-bg) !important;
+    }
