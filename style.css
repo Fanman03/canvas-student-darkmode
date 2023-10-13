@@ -1,4 +1,4 @@
-/* DU Canvas Darkmode CSS v.2023.08.16 */
+/* DU Canvas Darkmode CSS v.2023.10.13 */
 :root {
     --primary-bg: #0b0b0b;
     --secondary-bg: #232326;
@@ -11,23 +11,114 @@
     --info-bg: #0374b5;
 }
 
-.ic-Layout-columns, #dashboard_header_container, .ic-Dashboard-header__layout, .header-bar, .ic-Layout-wrapper, #breadcrumbs, .toolbarView, .toolbarView .headerBar, .item-group-container, .item-group-condensed .ig-header, .ig-list .ig-row, .fOyUs_dUgE, .fOyUs_bvKN, .assignment-student-header, .module-sequence-footer .module-sequence-footer-content, #assignments-student-footer, .fOyUs_fKlg, .agenda-wrapper, #calendar-list-holder, #other-calendars-list-holder, #undated-events, .ui-widget-content, .ui-dialog-titlebar, .fc-body, .conversations .panel, .messages, .messages>li, .EmptyDays-styles__root, .Day-styles__root, .PlannerHeader-styles__root {
+.ic-Layout-columns,
+#dashboard_header_container,
+.ic-Dashboard-header__layout,
+.header-bar,
+.ic-Layout-wrapper,
+#breadcrumbs,
+.toolbarView,
+.toolbarView .headerBar,
+.item-group-container,
+.item-group-condensed .ig-header,
+.ig-list .ig-row,
+.fOyUs_dUgE,
+.fOyUs_bvKN,
+.assignment-student-header,
+.module-sequence-footer .module-sequence-footer-content,
+#assignments-student-footer,
+.fOyUs_fKlg,
+.agenda-wrapper,
+#calendar-list-holder,
+#other-calendars-list-holder,
+#undated-events,
+.ui-widget-content,
+.ui-dialog-titlebar,
+.fc-body,
+.conversations .panel,
+.messages,
+.messages>li,
+.EmptyDays-styles__root,
+.Day-styles__root,
+.PlannerHeader-styles__root {
     background: var(--primary-bg) !important;
 }
 
-h1, h2, h3, h4, h5, p, .blnAQ_drOs, body, .ic-DashboardCard__header-subtitle, #breadcrumbs, #breadcrumbs>ul>li+li:last-of-type a, .ic-DashboardCard, .ic-DashboardCard__header_content, .ic-app-course-menu, .ig-header .name, li, .ig-list .ig-row a.ig-title, .ig-info, .fOyUs_dUgE, .fOyUs_bvKN, .fCrpb_egrg, .fCrpb_egrg.fCrpb_fVUh, label.fCrpb_egrg, .accessible-toggler, .enRcg_bGBk, .textLayer, .quiz_score .score_value, .fc-day-number, .event-details-timestring, .ui-dialog-title, .eMdva_caGd, .fQfxa_bCUx.fQfxa_buuG, .Vmatu_blJt, .ig-empty-msg, .standalone-icon:before, label, .XOwIb_eLeB, .edit_calendar_event_option, .ui-tabs-anchor {
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+.blnAQ_drOs,
+body,
+.ic-DashboardCard__header-subtitle,
+#breadcrumbs,
+#breadcrumbs>ul>li+li:last-of-type a,
+.ic-DashboardCard,
+.ic-DashboardCard__header_content,
+.ic-app-course-menu,
+.ig-header .name,
+li,
+.ig-list .ig-row a.ig-title,
+.ig-info,
+.fOyUs_dUgE,
+.fOyUs_bvKN,
+.fCrpb_egrg,
+.fCrpb_egrg.fCrpb_fVUh,
+label.fCrpb_egrg,
+.accessible-toggler,
+.enRcg_bGBk,
+.textLayer,
+.quiz_score .score_value,
+.fc-day-number,
+.event-details-timestring,
+.ui-dialog-title,
+.eMdva_caGd,
+.fQfxa_bCUx.fQfxa_buuG,
+.Vmatu_blJt,
+.ig-empty-msg,
+.standalone-icon:before,
+label,
+.XOwIb_eLeB,
+.edit_calendar_event_option,
+.ui-tabs-anchor {
     color: var(--primary-text) !important;
 }
 
-.ic-DashboardCard__header-title span, .ig-details, #grades_summary th.title .context, .ic-app-footer__links a, .context_module_item .type_icon i, .fc-other-month, .message-list .summary, .message-detail.span8 .date, .message-detail.conversations__message-detail .date, .icon-email, .no-messages, .fOyUs_ImeN, .ic-DashboardCard__action  {
+.ic-DashboardCard__header-title span,
+.ig-details,
+#grades_summary th.title .context,
+.ic-app-footer__links a,
+.context_module_item .type_icon i,
+.fc-other-month,
+.message-list .summary,
+.message-detail.span8 .date,
+.message-detail.conversations__message-detail .date,
+.icon-email,
+.no-messages,
+.fOyUs_ImeN,
+.ic-DashboardCard__action {
     color: var(--secondary-text) !important;
 }
 
-.ic-Dashboard-header__layout, .header-bar, .ic-app-nav-toggle-and-crumbs, .assignment-student-header, .message-list .messages>li, .conversations .panel, .blnAQ_kWwi, .PlannerItem-styles__root, .recent-activity-header, .item-group-condensed .ig-list li:last-child .ig-row.ig-row-empty, .item-group-condensed .ig-list li:last-of-type .ig-row.ig-row-empty, .item-group-condensed .last_visible .ig-row.ig-row-empty  {
+.ic-Dashboard-header__layout,
+.header-bar,
+.ic-app-nav-toggle-and-crumbs,
+.assignment-student-header,
+.message-list .messages>li,
+.conversations .panel,
+.blnAQ_kWwi,
+.PlannerItem-styles__root,
+.recent-activity-header,
+.item-group-condensed .ig-list li:last-child .ig-row.ig-row-empty,
+.item-group-condensed .ig-list li:last-of-type .ig-row.ig-row-empty,
+.item-group-condensed .last_visible .ig-row.ig-row-empty {
     border-bottom: 1px solid var(--border) !important;
 }
 
-#right-side h2, #right-side .h2{
+#right-side h2,
+#right-side .h2 {
     border-bottom: 1px solid var(--border);
 }
 
@@ -35,31 +126,48 @@ h1, h2, h3, h4, h5, p, .blnAQ_drOs, body, .ic-DashboardCard__header-subtitle, #b
     border-right: 1px solid var(--border) !important;
 }
 
-.item-group-condensed .ig-header, .ig-list .ig-row, .quiz-submission, .question_editing {
+.item-group-condensed .ig-header,
+.ig-list .ig-row,
+.quiz-submission,
+.question_editing {
     border: 1px solid var(--border);
 }
 
-hr, .ic-app-footer, .module-sequence-footer .module-sequence-footer-content {
+hr,
+.ic-app-footer,
+.module-sequence-footer .module-sequence-footer-content {
     border-top: 1px solid var(--border) !important;
 }
 
-.btn, .Button, .fQfxa_dqAF.fQfxa_buuG, #planner-today-btn, .fQfxa_dqAF.fQfxa_bFtJ, .Vmatu_cjSw.Vmatu_ksNK .Vmatu_cSXm {
+.btn,
+.Button,
+.fQfxa_dqAF.fQfxa_buuG,
+#planner-today-btn,
+.fQfxa_dqAF.fQfxa_bFtJ,
+.Vmatu_cjSw.Vmatu_ksNK .Vmatu_cSXm {
     background: var(--btn) !important;
     border: 1px solid var(--btn) !important;
     color: var(--primary-text) !important;
 }
 
-.btn:hover, .Button:hover, #planner-today-btn:hover, .fQfxa_dqAF.fQfxa_bFtJ:hover {
+.btn:hover,
+.Button:hover,
+#planner-today-btn:hover,
+.fQfxa_dqAF.fQfxa_bFtJ:hover {
     background: var(--btn-hover) !important;
     border: 1px solid var(--btn-hover) !important;
     color: var(--primary-text) !important;
 }
 
-.btn-link, .Button--link, #minical .fc-widget-content {
+.btn-link,
+.Button--link,
+#minical .fc-widget-content {
     border-color: transparent !important;
 }
 
-.Button--icon-action, .Button--icon-action-rev, .Button--link {
+.Button--icon-action,
+.Button--icon-action-rev,
+.Button--link {
     transition: color .2s;
     background: transparent !important;
     border: none !important;
@@ -69,7 +177,23 @@ hr, .ic-app-footer, .module-sequence-footer .module-sequence-footer-content {
     outline: none;
 }
 
-.ic-DashboardCard, .ic-DashboardCard__header_content, .fLzZc_bGBk, .fLzZc_fSpQ, .fLzZc_doqw, .fLzZc_bQpq, .eJkkQ_bIuM, #minical, .event-details, #calendars-context-list .context_list_context:hover, #other-calendars-context-list .context_list_context:hover, .ColorPicker__Container, .ac-result-container, .message-list .messages>li.active, .Grouping-styles__title, .Grouping-styles__title::after, .ic-notification__content {
+.ic-DashboardCard,
+.ic-DashboardCard__header_content,
+.fLzZc_bGBk,
+.fLzZc_fSpQ,
+.fLzZc_doqw,
+.fLzZc_bQpq,
+.eJkkQ_bIuM,
+#minical,
+.event-details,
+#calendars-context-list .context_list_context:hover,
+#other-calendars-context-list .context_list_context:hover,
+.ColorPicker__Container,
+.ac-result-container,
+.message-list .messages>li.active,
+.Grouping-styles__title,
+.Grouping-styles__title::after,
+.ic-notification__content {
     background: var(--secondary-bg) !important;
 }
 
@@ -85,19 +209,32 @@ hr, .ic-app-footer, .module-sequence-footer .module-sequence-footer-content {
     padding-left: 4px;
 }
 
-a, .message-list .date, a.fbyHH_bGBk, button.fbyHH_bGBk {
+a,
+.message-list .date,
+a.fbyHH_bGBk,
+button.fbyHH_bGBk {
     color: var(--link);
 }
 
-.ic-Table.ic-Table--hover-row tbody tr:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-neutral:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-success:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-alert:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-danger:hover, .quiz-submission, .question_editing, .eMdva_bgqc {
+.ic-Table.ic-Table--hover-row tbody tr:hover,
+.ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-neutral:hover,
+.ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-success:hover,
+.ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-alert:hover,
+.ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-danger:hover,
+.quiz-submission,
+.question_editing,
+.eMdva_bgqc {
     background: var(--secondary-bg) !important;
 }
 
-table.summary, table.summary td, table.summary tbody th {
+table.summary,
+table.summary td,
+table.summary tbody th {
     background: var(--secondary-bg) !important;
 }
 
-#grades_summary .feedback_visibility_ff a.toggle_comments_link, #grades_summary .feedback_visibility_ff a.toggle_rubric_assessments_link {
+#grades_summary .feedback_visibility_ff a.toggle_comments_link,
+#grades_summary .feedback_visibility_ff a.toggle_rubric_assessments_link {
     background: var(--btn) !important;
     color: var(--primary-text) !important;
     border: 1px solid var(--btn) !important;
@@ -113,37 +250,49 @@ table.summary, table.summary td, table.summary tbody th {
 }
 
 .eqmZq_bGBk {
-    background-color: var(--primary-bg) !important;    
+    background-color: var(--primary-bg) !important;
 }
 
 .eqmZq_bGBk:hover {
-    background-color: var(--secondary-bg) !important;    
+    background-color: var(--secondary-bg) !important;
 }
 
-.fc-today, .message-list .message-count, .eqmZq_dDxn {
-    background-color: var(--btn) !important;   
+.fc-today,
+.message-list .message-count,
+.eqmZq_dDxn {
+    background-color: var(--btn) !important;
 }
 
 .message-list .list-header {
-    background-color: var(--primary-bg) !important;    
+    background-color: var(--primary-bg) !important;
     color: var(--primary-text) !important;
 }
 
-.dLyYq_pypk, .dLyYq_ecos {
+.dLyYq_pypk,
+.dLyYq_ecos {
     background: var(--info-bg) !important;
     color: var(--primary-text) !important;
 }
 
-.myScore{
+.myScore {
     stroke: var(--info-bg) !important;
     fill: var(--info-bg) !important;
 }
 
-.zero, .possible, .min, .bottomQ, .mid50, .median, .topQ, .max {
+.zero,
+.possible,
+.min,
+.bottomQ,
+.mid50,
+.median,
+.topQ,
+.max {
     stroke: var(--secondary-text) !important;
 }
 
-.ic-Table td, #grades_summary th.title, .ic-Table th {
+.ic-Table td,
+#grades_summary th.title,
+.ic-Table th {
     border-bottom-color: var(--border) !important;
 }
 
@@ -154,12 +303,13 @@ table.summary, table.summary td, table.summary tbody th {
 }
 
 .ui-dialog-titlebar-close:hover {
-    background: var(--btn-hover)  !important;
+    background: var(--btn-hover) !important;
     border: 1px solid var(--btn-hover) !important;
     border: 1px solid #0000;
 }
 
-.fdyuz_bGBk.fdyuz_cMOR, .eHzxc_bGBk.eHzxc_bcOZ.eHzxc_ssMr {
+.fdyuz_bGBk.fdyuz_cMOR,
+.eHzxc_bGBk.eHzxc_bcOZ.eHzxc_ssMr {
     background: var(--primary-bg);
 }
 
@@ -171,11 +321,15 @@ a.fbyHH_bGBk.fbyHH_vIby:hover {
     text-decoration: var(--fbyHH-textDecorationWithinText) !important;
 }
 
-.fOyUs_fZwI, .fOyUs_kXoP, .dpCPB_caGd, .cAqHo_eAjd {
+.fOyUs_fZwI,
+.fOyUs_kXoP,
+.dpCPB_caGd,
+.cAqHo_eAjd {
     background: var(--secondary-bg);
 }
 
-.XOwIb_eLeB:not([aria-selected]):not([aria-disabled]):hover, .XOwIb_eLeB[aria-selected] {
+.XOwIb_eLeB:not([aria-selected]):not([aria-disabled]):hover,
+.XOwIb_eLeB[aria-selected] {
     background: var(--btn);
     color: var(--primary-text);
     border: 1px solid var(--btn);
@@ -199,18 +353,27 @@ a.fbyHH_bGBk.fbyHH_vIby:hover {
     color: var(--secondary-text) !important;
 }
 
- .ic-DashboardCard__action:hover {
+.ic-DashboardCard__action:hover {
     color: var(--primary-text) !important;
 }
 
-.ui-tabs .ui-tabs-nav li.ui-tabs-active, .ui-tabs .ui-tabs-nav li.ui-tabs-active.ui-state-hover, .ui-tabs .ui-tabs-nav li.ui-tabs-active:hover, .ui-tabs .ui-tabs-nav li.ui-state-hover, .ui-tabs .ui-tabs-nav li:hover, .ui-tabs .ui-tabs-nav li.ui-state-focus, .ui-tabs .ui-tabs-nav li.ui-state-focus.ui-tabs-active, .ui-tabs .ui-tabs-nav li.ui-state-focus a, .ui-tabs .ui-tabs-nav li.ui-state-focus.ui-tabs-active a {
+.ui-tabs .ui-tabs-nav li.ui-tabs-active,
+.ui-tabs .ui-tabs-nav li.ui-tabs-active.ui-state-hover,
+.ui-tabs .ui-tabs-nav li.ui-tabs-active:hover,
+.ui-tabs .ui-tabs-nav li.ui-state-hover,
+.ui-tabs .ui-tabs-nav li:hover,
+.ui-tabs .ui-tabs-nav li.ui-state-focus,
+.ui-tabs .ui-tabs-nav li.ui-state-focus.ui-tabs-active,
+.ui-tabs .ui-tabs-nav li.ui-state-focus a,
+.ui-tabs .ui-tabs-nav li.ui-state-focus.ui-tabs-active a {
     background: var(--btn);
     color: var(--primary-text);
     border: 1px solid var(--btn);
     text-decoration: none !important;
 }
 
-.ui-tabs .ui-tabs-panel, .ui-dialog .ui-dialog-titlebar.ui-widget-header {
+.ui-tabs .ui-tabs-panel,
+.ui-dialog .ui-dialog-titlebar.ui-widget-header {
     border: none;
 }
 
@@ -222,29 +385,63 @@ a.fbyHH_bGBk.fbyHH_vIby:hover {
     background-color: var(--secondary-bg)
 }
 
-    .roster-tab {
-        background: var(--primary-bg) !important;
-    }
-    
-    .ic-Table td, #grades_summary th.title, .ic-Table th {
-        color: var(--secondary-text);
-    }
-    .ic-Table.ic-Table--striped tbody tr:nth-child(odd) {
-        background: var(--primary-bg) !important;
-    }
-    
-    .ic-Table.ic-Table--striped tbody tr:nth-child(odd):hover {
-        background: var(--secondary-bg) !important;
-    }
-    .ic-Table--striped tr:nth-child(odd) .roster_user_name {
-        color: var(--link);
-    }
-    
-    .pinned-discussions-v2__wrapper, .unpinned-discussions-v2__wrapper, .closed-for-comments-discussions-v2__wrapper {
-        background: var(--primary-bg) !important;
-        border: 1px solid var(--border);
-    }
-    
-    .discussions-v2__container-image {
-        background: var(--secondary-bg) !important;
-    }
+.roster-tab {
+    background: var(--primary-bg) !important;
+}
+
+.ic-Table td,
+#grades_summary th.title,
+.ic-Table th {
+    color: var(--secondary-text);
+}
+
+.ic-Table.ic-Table--striped tbody tr:nth-child(odd) {
+    background: var(--primary-bg) !important;
+}
+
+.ic-Table.ic-Table--striped tbody tr:nth-child(odd):hover {
+    background: var(--secondary-bg) !important;
+}
+
+.ic-Table--striped tr:nth-child(odd) .roster_user_name {
+    color: var(--link);
+}
+
+.pinned-discussions-v2__wrapper,
+.unpinned-discussions-v2__wrapper,
+.closed-for-comments-discussions-v2__wrapper {
+    background: var(--primary-bg) !important;
+    border: 1px solid var(--border);
+}
+
+.discussions-v2__container-image {
+    background: var(--secondary-bg) !important;
+}
+
+button#ueT2L7DZ3HCx>.fOyUs_kXoP {
+    background: var(--btn) !important;
+    border-radius: 3px
+}
+
+button.fOyUs_bGBk:hover,
+button#ueT2L7DZ3HCx>.fOyUs_kXoP:hover {
+    background: var(--btn-hover);
+}
+
+
+.user_content.enhanced {
+    color: var(--primary-text) !important;
+}
+
+div[style*="background-color: rgb(245, 245, 245); border-top: 2px solid rgb(199, 205, 209);"],
+span[style*="display: block; width: 100%; z-index: 99; background-color: rgb(245, 245, 245); padding: 1.5rem 0px;"] {
+    background-color: var(--secondary-bg) !important;
+}
+
+span.enRcg_bGBk.enRcg_cMDj.enRcg_eQnG.enRcg_qFsi {
+    color: var(--btn) !important;
+}
+
+.fOyUs_bGBk.fOyUs_kXoP {
+    background-color: var(--primary-bg) !important;
+}
