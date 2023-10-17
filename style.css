@@ -1,4 +1,4 @@
-/* DU Canvas Darkmode CSS v.2023.10.13 */
+/* DU Canvas Darkmode CSS v.2023.10.16 */
 :root {
     --primary-bg: #0b0b0b;
     --secondary-bg: #232326;
@@ -444,4 +444,23 @@ span.enRcg_bGBk.enRcg_cMDj.enRcg_eQnG.enRcg_qFsi {
 
 .fOyUs_bGBk.fOyUs_kXoP {
     background-color: var(--primary-bg) !important;
+}
+
+div[style*="background-color: rgb(245, 245, 245); border-top: 2px solid rgb(199, 205, 209);"] {
+    border-top: 0px #0000 !important;
+}
+
+.tree i[class*=icon-],
+.tree i[class^=icon-],
+.ef-plain-link,
+.ef-plain-link:hover {
+    color: var(--primary-text);
+}
+
+.ef-item-row:hover {
+    background-color: var(--secondary-bg);
+}
+
+#right-side .events_list .event-details:after {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, var(--link) 80%);
 }
