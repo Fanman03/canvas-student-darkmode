@@ -1,4 +1,4 @@
-/* DU Canvas Darkmode CSS v.2023.10.16 */
+/* DU Canvas Darkmode CSS v.2023.12.14 */
 :root {
     --primary-bg: #0b0b0b;
     --secondary-bg: #232326;
@@ -82,7 +82,8 @@ label.fCrpb_egrg,
 label,
 .XOwIb_eLeB,
 .edit_calendar_event_option,
-.ui-tabs-anchor {
+.ui-tabs-anchor,
+.css-1fvrx9c-text {
     color: var(--primary-text) !important;
 }
 
@@ -463,4 +464,22 @@ div[style*="background-color: rgb(245, 245, 245); border-top: 2px solid rgb(199,
 
 #right-side .events_list .event-details:after {
     background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, var(--link) 80%);
+}
+
+.css-1kdtqv3-tray__content,
+.css-1ocworu-modal,
+.css-1y7d45o-modalHeader {
+    background: var(--secondary-bg);
+}
+
+.icon-discussion.standalone-icon::before {
+    color: var(--ic-brand-font-color-dark-lightened-15) !important;
+}
+
+.css-1myyqst-view-table,
+.css-1lvqnn0-head,
+.css-uysa3a-view-row>th,
+.css-uysa3a-view-row>td {
+    color: var(--primary-text);
+    background: var(--secondary-bg)
 }
