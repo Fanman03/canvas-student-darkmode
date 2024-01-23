@@ -1,4 +1,4 @@
-/* DU Canvas Darkmode CSS v.2023.12.14 */
+/* DU Canvas Darkmode CSS v.2024.01.22 */
 :root {
     --primary-bg: #0b0b0b;
     --secondary-bg: #232326;
@@ -482,4 +482,12 @@ div[style*="background-color: rgb(245, 245, 245); border-top: 2px solid rgb(199,
 .css-uysa3a-view-row>td {
     color: var(--primary-text);
     background: var(--secondary-bg)
+}
+
+.css-1b4qtrz-view-link {
+    text-decoration: none !important;
+}
+
+span[style*="color: #000000;"], .css-1l8k4me-radioInput__label {
+    color: var(--primary-text) !important;
 }
