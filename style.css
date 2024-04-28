@@ -500,7 +500,7 @@ span[style*="color: #000000;"], .css-1l8k4me-radioInput__label {
 }
 
 .css-j68kdy-formFieldLabel {
-    color: var(--primary-text);
+    color: var(--primary-text) !important;
 }
 
 .css-1v8v5q1-optionItem {
@@ -513,4 +513,12 @@ span[style*="color: #000000;"], .css-1l8k4me-radioInput__label {
 
 .css-tpuo6v-text, .ic-DashboardCard__header-subtitle, .ic-DashboardCard__header-term {
     color: var(--text-secondary);
+}
+
+.css-quqv7u-baseButton__iconSVG, .css-31gkb3-baseButton__iconSVG {
+    color: white;
+}
+
+.css-tpuo6v-text {
+    color: var(--secondary-text);
 }
