@@ -87,7 +87,6 @@ label,
     color: var(--primary-text) !important;
 }
 
-.ic-DashboardCard__header-title span,
 .ig-details,
 #grades_summary th.title .context,
 .ic-app-footer__links a,
@@ -510,4 +509,8 @@ span[style*="color: #000000;"], .css-1l8k4me-radioInput__label {
 
 .css-v6ykv-optionItem {
     background: var(--primary-bg);
+}
+
+.css-tpuo6v-text, .ic-DashboardCard__header-subtitle, .ic-DashboardCard__header-term {
+    color: var(--text-secondary);
 }
