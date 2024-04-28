@@ -453,8 +453,7 @@ div[style*="background-color: rgb(245, 245, 245); border-top: 2px solid rgb(199,
 .tree i[class*=icon-],
 .tree i[class^=icon-],
 .ef-plain-link,
-.ef-plain-link:hover,
-.css-j68kdy-formFieldLabel {
+.ef-plain-link:hover {
     color: var(--primary-text);
 }
 
@@ -468,8 +467,7 @@ div[style*="background-color: rgb(245, 245, 245); border-top: 2px solid rgb(199,
 
 .css-1kdtqv3-tray__content,
 .css-1ocworu-modal,
-.css-1y7d45o-modalHeader,
-.css-1v8v5q1-optionItem {
+.css-1y7d45o-modalHeader {
     background: var(--secondary-bg);
 }
 
@@ -489,25 +487,30 @@ div[style*="background-color: rgb(245, 245, 245); border-top: 2px solid rgb(199,
     text-decoration: none !important;
 }
 
-span[style*="color: #000000;"],
-.css-1l8k4me-radioInput__label {
+span[style*="color: #000000;"], .css-1l8k4me-radioInput__label {
     color: var(--primary-text) !important;
 }
 
-.css-tpuo6v-text,
-.css-tpuo6v-text,
-.ic-DashboardCard__header-subtitle,
-.ic-DashboardCard__header-term {
+.css-tpuo6v-text {
     color: var(--secondary-text);
 }
 
-#right-side .events_list li.event i.icon-check,
-#right-side .events_list li.todo i.icon-check,
-#right-side .to-do-list li.event i.icon-check,
-#right-side .to-do-list li.todo i.icon-check {
+#right-side .events_list li.event i.icon-check, #right-side .events_list li.todo i.icon-check, #right-side .to-do-list li.event i.icon-check, #right-side .to-do-list li.todo i.icon-check {
     color: #13ec83;
+}
+
+.css-j68kdy-formFieldLabel {
+    color: var(--primary-text);
+}
+
+.css-1v8v5q1-optionItem {
+    background: var(--secondary-bg);
 }
 
 .css-v6ykv-optionItem {
     background: var(--primary-bg);
+}
+
+.css-tpuo6v-text, .ic-DashboardCard__header-subtitle, .ic-DashboardCard__header-term {
+    color: var(--text-secondary);
 }
