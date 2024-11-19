@@ -1,4 +1,4 @@
-/* DU Canvas Darkmode CSS v.2024.04.28 */
+/* DU Canvas Darkmode CSS v.2024.11.18 */
 :root {
     --primary-bg: #0b0b0b;
     --secondary-bg: #232326;
@@ -521,4 +521,24 @@ span[style*="color: #000000;"], .css-1l8k4me-radioInput__label {
 
 .css-tpuo6v-text {
     color: var(--secondary-text);
+}
+
+.css-quqv7u-baseButton__iconSVG, .css-31gkb3-baseButton__iconSVG {
+    color: rgb(45, 59, 69);
+}
+
+.css-sg1rn7-view, .css-h1to0e {
+    background: inherit;
+}
+
+.css-lqsttu-inlineSVG-svgIcon, .css-zg7p7z-view-tab {
+    color: var(--primary-text);
+}
+
+.css-dvua1q-view--block-contextView__content, .css-1cnxpbl-view-panel__content{
+    background: var(--secondary-bg);
+}
+
+#tab-usmUpOPubLgH {
+    background: var(--primary-bg);
 }
